@@ -38,7 +38,7 @@ export default {
     return {
       // Логотипы для первого ряда
       clientsRow1: [
-        { src: '/_nuxt/assets/src/clients/mtc.svg', alt: 'MTC', width: 131, height: 130 },
+        { src: '/assets/src/clients/mtc.svg', alt: 'MTC', width: 131, height: 130 },
         { src: '/_nuxt/assets/src/clients/sber.svg', alt: 'Sber', width: 273, height: 74 },
         { src: '/_nuxt/assets/src/clients/tele2.svg', alt: 'Tele2', width: 196, height: 74 },
         { src: '/_nuxt/assets/src/clients/gaz.svg', alt: 'Gaz', width: 71, height: 80 },
