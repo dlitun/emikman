@@ -1,0 +1,89 @@
+:root {
+    --bg-color: #EFEFEF;
+    --color-white: #FFFFFF;
+    --text-color: #222222;
+    --primary: #b2ff4f;
+
+    --container-max-width: 1600px;
+    --container-padding: 4rem;
+    --container-padding-x-md: 1rem;
+}
+
+.dark {
+    --bg-color: #111111;
+    --text-color: #f0f0f0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background: var(--primary);
+    color: var(--text-color);
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+.btn:hover {
+    background: #5f9e0c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--container-max-width);
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.container-full {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+  @media (min-width: 768px) {
+    .container {
+      padding-left: var(--container-padding-x-md);
+      padding-right: var(--container-padding-x-md);
+    }
+  }
