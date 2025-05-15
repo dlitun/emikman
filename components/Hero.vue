@@ -1,7 +1,7 @@
 <template>
   <section class="container-full hero">
     <video autoplay muted loop playsinline class="hero-video">
-      <source src="/assets/src/banner.mp4" type="video/mp4" />
+      <source src="/assets/src/video-1.mp4" type="video/mp4" />
       Ваш браузер не поддерживает видео.
     </video>
 
